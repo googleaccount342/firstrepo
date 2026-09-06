@@ -26,44 +26,52 @@
 
         <div class="_0x3">Select a CDN mirror from the top right to launch in a new tab.</div>
 
-       <script>
-//<![CDATA[
-  (function() {
-    function size() {
-      var w = window.innerWidth, h = window.innerHeight;
-      var svg = document.querySelector('svg');
-      var fo  = document.querySelector('foreignObject');
-      if (svg) { svg.setAttribute('width', w); svg.setAttribute('height', h); svg.setAttribute('viewBox','0 0 '+w+' '+h); }
-      if (fo)  { fo.setAttribute('width', w);  fo.setAttribute('height', h); }
-    }
-    size();
-    window.addEventListener('resize', size);
+        <script>
+          //<![CDATA[
+          (function() {
+          function size() {
+          var w = window.innerWidth, h = window.innerHeight;
+          var svg = document.querySelector('svg');
+          var fo  = document.querySelector('foreignObject');
+          if (svg) { svg.setAttribute('width', w); svg.setAttribute('height', h); svg.setAttribute('viewBox','0 0 '+w+' '+h); }
+          if (fo)  { fo.setAttribute('width', w);  fo.setAttribute('height', h); }
+          }
+          size();
+          window.addEventListener('resize', size);
 
-    const _0x82b4=["\x2f\x67\x68\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x33\x34\x32\x2f\x66\x69\x72\x73\x74\x72\x65\x70\x6f\x2f\x61\x73\x73\x65\x74\x73\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c","\x5f\x30\x78\x32","\x63\x68\x61\x6e\x67\x65","\x61\x62\x6f\x75\x74\x3a\x62\x6c\x61\x6e\x6b","\x5f\x62\x6c\x61\x6e\x6b","\x3f\x74\x3d","\x3c\x64\x69\x76\x20\x73\x74\x79\x6c\x65\x3d\x22\x63\x6f\x6c\x6f\x72\x3a\x20\x62\x6c\x61\x63\x6b\x3b\x20\x66\x6f\x6e\x74\x2d\x66\x61\x6d\x69\x6c\x79\x3a\x20\x73\x61\x6e\x73\x2d\x73\x65\x72\x69\x66\x3b\x20\x70\x61\x64\x64\x69\x6e\x67\x3a\x20\x32\x30\x70\x78\x3b\x22\x3e\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x66\x72\x6f\x6d\x20","\x2e\x20\x54\x72\x79\x20\x61\x6e\x6f\x74\x68\x65\x72\x20\x6d\x69\x72\x72\x6f\x72\x2e\x3c\x2f\x64\x69\x76\x3e","\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64","\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72","\x76\x61\x6c\x75\x65","\x6f\x70\x65\x6e","\x6e\x6f\x77","\x6f\x6b","\x73\x74\x61\x74\x75\x73","\x74\x65\x78\x74","\x64\x6f\x63\x75\x6d\x65\x6e\x74","\x77\x72\x69\x74\x65","\x63\x6c\x6f\x73\x65","\x74\x61\x72\x67\x65\x74"];
-    const _0x1c9f=_0x82b4[0];
-    const _0x3e4a=document[_0x82b4[8]](_0x82b4[1]);
+          const _0x82b4=["\x2f\x67\x68\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x33\x34\x32\x2f\x66\x69\x72\x73\x74\x72\x65\x70\x6f\x2f\x61\x73\x73\x65\x74\x73\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c","\x5f\x30\x78\x32","\x63\x68\x61\x6e\x67\x65","\x61\x62\x6f\x75\x74\x3a\x62\x6c\x61\x6e\x6b","\x5f\x62\x6c\x61\x6e\x6b","\x3f\x76\x3d","\x3c\x64\x69\x76\x20\x73\x74\x79\x6c\x65\x3d\x22\x63\x6f\x6c\x6f\x72\x3a\x20\x62\x6c\x61\x63\x6b\x3b\x20\x66\x6f\x6e\x74\x2d\x66\x61\x6d\x69\x6c\x79\x3a\x20\x73\x61\x6e\x73\x2d\x73\x65\x72\x69\x66\x3b\x20\x70\x61\x64\x64\x69\x6e\x67\x3a\x20\x32\x30\x70\x78\x3b\x22\x3e\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x66\x72\x6f\x6d\x20","\x2e\x20\x54\x72\x79\x20\x61\x6e\x6f\x74\x68\x65\x72\x20\x6d\x69\x72\x72\x6f\x72\x2e\x3c\x2f\x64\x69\x76\x3e","\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64","\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72","\x76\x61\x6c\x75\x65","\x6f\x70\x65\x6e","\x6e\x6f\x77","\x6f\x6b","\x73\x74\x61\x74\x75\x73","\x74\x65\x78\x74","\x64\x6f\x63\x75\x6d\x65\x6e\x74","\x77\x72\x69\x74\x65","\x63\x6c\x6f\x73\x65","\x74\x61\x72\x67\x65\x74"];
+          const _0x1c9f=_0x82b4[0];
+          const _0x3e4a=document[_0x82b4[8]](_0x82b4[1]);
 
-    _0x3e4a[_0x82b4[9]](_0x82b4[2],async(_0x5f12)=>{
-      const _0x9b8c=_0x5f12[_0x82b4[19]][_0x82b4[10]];
-      if(!_0x9b8c)return;
-      const _0x4d3e=window[_0x82b4[11]](_0x82b4[3],_0x82b4[4]);
-      try{
-        const _0x7a6b=await fetch(_0x9b8c+_0x1c9f+_0x82b4[5]+Date[_0x82b4[12]]());
-        if(!_0x7a6b[_0x82b4[13]])throw new Error(_0x7a6b[_0x82b4[14]]);
-        const _0x2e1a=await _0x7a6b[_0x82b4[15]]();
-        _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
-        _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x2e1a);
-        _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
-      }catch(_0x3f5d){
-        _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
-        _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x82b4[6]+_0x9b8c+_0x82b4[7]);
-        _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
-      }
-      _0x5f12[_0x82b4[19]][_0x82b4[10]]="";
-    });
-  })();
-//]]>
-</script>
+          _0x3e4a[_0x82b4[9]](_0x82b4[2],async(_0x5f12)=>{
+          const _0x9b8c=_0x5f12[_0x82b4[19]][_0x82b4[10]];
+          if(!_0x9b8c)return;
+          const _0x4d3e=window[_0x82b4[11]](_0x82b4[3],_0x82b4[4]);
+          try{
+          // Added { cache: 'no-store' } and forced unique timestamp parameter
+          const fetchUrl = _0x9b8c + _0x1c9f + "?nocache=" + new Date().getTime();
+          const _0x7a6b = await fetch(fetchUrl, { cache: "no-store" });
+
+          if(!_0x7a6b[_0x82b4[13]])throw new Error(_0x7a6b[_0x82b4[14]]);
+          let _0x2e1a = await _0x7a6b[_0x82b4[15]]();
+
+          // Inject base tag so document.write respects relative URLs
+          const baseUrl = _0x9b8c + _0x1c9f;
+          _0x2e1a = _0x2e1a.replace('<head>', `<head><base href="${baseUrl}">`);
+
+                _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
+                _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x2e1a);
+                _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
+                }catch(_0x3f5d){
+                _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
+                _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x82b4[6]+_0x9b8c+_0x82b4[7]);
+                _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
+                }
+                _0x5f12[_0x82b4[19]][_0x82b4[10]]="";
+                });
+                })();
+                //]]>
+              </script>
       </body>
     </html>
   </foreignObject>
