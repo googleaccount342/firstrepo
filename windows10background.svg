@@ -20,7 +20,8 @@
       <label for="_0x2" style="margin-right:5px;font-size:14px;">Mirror:</label>
       <select id="_0x2">
         <option value="" disabled="disabled" selected="selected">Select a mirror...</option>
-        <option value="https://quantil.jsdelivr.net">quantil.jsdelivr.net (Main)</option>
+        <option value="https://cdn.jsdelivr.net">cdn.jsdelivr.net (Main)</option>
+        <option value="https://quantil.jsdelivr.net">quantil.jsdelivr.net</option>
       </select>
     </div>
 
