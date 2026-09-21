@@ -3,8 +3,6 @@
   <foreignObject id="fo" width="100%" height="100%" x="0" y="0">
     <html xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;margin:0;padding:0;">
     <head>
-      <title>Home - Google Drive</title>
-      <link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/drive_favicon_2026_32dp.png" />
       <style>
         /* <![CDATA[ */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -17,15 +15,13 @@
     </head>
     <body>
     <div id="_0x1">
-      <label for="_0x2" style="margin-right:5px;font-size:14px;">Mirror:</label>
+      <label for="_0x2" style="margin-right:5px;font-size:14px;">Link:</label>
       <select id="_0x2">
-        <option value="" disabled="disabled" selected="selected">Select a mirror...</option>
-        <option value="https://cdn.jsdelivr.net">cdn.jsdelivr.net (Main)</option>
-        <option value="https://quantil.jsdelivr.net">quantil.jsdelivr.net</option>
+        <option value="" disabled="disabled" selected="selected">Select a link...</option>
       </select>
     </div>
 
-    <div class="_0x3">Select a CDN mirror from the top right to launch in a new tab.</div>
+    <div class="_0x3">Select a link from the top right to launch in a new tab.</div>
 
     <script>
       //<![CDATA[
@@ -40,37 +36,65 @@
       size();
       window.addEventListener('resize', size);
 
-      const _0x82b4=["\x2f\x67\x68\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x35\x35\x32\x2f\x72\x65\x70\x6f\x2f\x69\x6e\x64\x65\x78\x2e\x68\x74\x6d\x6c","\x5f\x30\x78\x32","\x63\x68\x61\x6e\x67\x65","\x61\x62\x6f\x75\x74\x3a\x62\x6c\x61\x6e\x6b","\x5f\x62\x6c\x61\x6e\x6b","\x3f\x76\x3d","\x3c\x64\x69\x76\x20\x73\x74\x79\x6c\x65\x3d\x22\x63\x6f\x6c\x6f\x72\x3a\x20\x62\x6c\x61\x63\x6b\x3b\x20\x66\x6f\x6e\x74\x2d\x66\x61\x6d\x69\x6c\x79\x3a\x20\x73\x61\x6e\x73\x2d\x73\x65\x72\x69\x66\x3b\x20\x70\x61\x64\x64\x69\x6e\x67\x3a\x20\x32\x30\x70\x78\x3b\x22\x3e\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x66\x72\x6f\x6d\x20","\x2e\x20\x54\x72\x79\x20\x61\x6e\x6f\x74\x68\x65\x72\x20\x6d\x69\x72\x72\x6f\x72\x2e\x3c\x2f\x64\x69\x76\x3e","\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64","\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72","\x76\x61\x6c\x75\x65","\x6f\x70\x65\x6e","\x6e\x6f\x77","\x6f\x6b","\x73\x74\x61\x74\x75\x73","\x74\x65\x78\x74","\x64\x6f\x63\x75\x6d\x65\x6e\x74","\x77\x72\x69\x74\x65","\x63\x6c\x6f\x73\x65","\x74\x61\x72\x67\x65\x74"];
-      const _0x1c9f=_0x82b4[0];
-      const _0x3e4a=document[_0x82b4[8]](_0x82b4[1]);
+      const _0x82b4 = [
+        "\x5f\x30\x78\x32",
+        "\x63\x68\x61\x6e\x67\x65",
+        "\x61\x62\x6f\x75\x74\x3a\x62\x6c\x61\x6e\x6b",
+        "\x5f\x62\x6c\x61\x6e\x6b",
+        "\x3f\x6e\x6f\x63\x61\x63\x68\x65\x3d",
+        "\x3c\x64\x69\x76\x20\x73\x74\x79\x6c\x65\x3d\x22\x63\x6f\x6c\x6f\x72\x3a\x20\x62\x6c\x61\x63\x6b\x3b\x20\x66\x6f\x6e\x74\x2d\x66\x61\x6d\x69\x6c\x79\x3a\x20\x73\x61\x6e\x73\x2d\x73\x65\x72\x69\x66\x3b\x20\x70\x61\x64\x64\x69\x6e\x67\x3a\x20\x32\x30\x70\x78\x3b\x22\x3e\x46\x61\x69\x6c\x65\x64\x20\x74\x6f\x20\x6c\x6f\x61\x64\x20\x66\x72\x6f\x6d\x20",
+        "\x2e\x20\x54\x72\x79\x20\x61\x6e\x6f\x74\x68\x65\x72\x20\x6c\x69\x6e\x6b\x2e\x3c\x2f\x64\x69\x76\x3e",
+        "\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64",
+        "\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72",
+        "\x76\x61\x6c\x75\x65",
+        "\x6f\x70\x65\x6e",
+        "\x6f\x6b",
+        "\x73\x74\x61\x74\x75\x73\x54\x65\x78\x74",
+        "\x74\x65\x78\x74",
+        "\x64\x6f\x63\x75\x6d\x65\x6e\x74",
+        "\x77\x72\x69\x74\x65",
+        "\x63\x6c\x6f\x73\x65",
+        "\x74\x61\x72\x67\x65\x74",
+        "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x33\x34\x32\x2e\x67\x69\x74\x68\x75\x62\x2e\x69\x6f\x2f\x6d\x79\x66\x69\x72\x73\x74\x72\x65\x70\x6f\x2f\x66\x69\x72\x73\x74\x2e\x68\x74\x6d\x6c",
+        "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x39\x36\x32\x2e\x67\x69\x74\x68\x75\x62\x2e\x69\x6f\x2f\x6d\x79\x66\x69\x72\x73\x74\x72\x65\x70\x6f\x2f\x74\x68\x69\x72\x64\x2e\x68\x74\x6d\x6c"
+      ];
 
-      _0x3e4a[_0x82b4[9]](_0x82b4[2],async(_0x5f12)=>{
-      const _0x9b8c=_0x5f12[_0x82b4[19]][_0x82b4[10]];
-      if(!_0x9b8c)return;
-      const _0x4d3e=window[_0x82b4[11]](_0x82b4[3],_0x82b4[4]);
-      try{
-      const fetchUrl = _0x9b8c + _0x1c9f + "?nocache=" + new Date().getTime();
-      const _0x7a6b = await fetch(fetchUrl, { cache: "no-store" });
-      if(!_0x7a6b[_0x82b4[13]])throw new Error(_0x7a6b[_0x82b4[14]]);
-      let _0x2e1a = await _0x7a6b[_0x82b4[15]]();
+      const _0x3e4a = document[_0x82b4[7]](_0x82b4[0]);
 
-      const baseUrl = _0x9b8c + _0x1c9f;
-      _0x2e1a = _0x2e1a.replace('<head>', `<head><base href="${baseUrl}">`);
+      const _0xopt1 = document.createElement('option');
+      _0xopt1.value = _0x82b4[18];
+      _0xopt1.text = 'first.html';
+      _0x3e4a.appendChild(_0xopt1);
 
-            _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
-            _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x2e1a);
-            _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
-            }catch(_0x3f5d){
-            _0x4d3e[_0x82b4[16]][_0x82b4[11]]();
-            _0x4d3e[_0x82b4[16]][_0x82b4[17]](_0x82b4[6]+_0x9b8c+_0x82b4[7]);
-            _0x4d3e[_0x82b4[16]][_0x82b4[18]]();
-            }
-            _0x5f12[_0x82b4[19]][_0x82b4[10]]="";
-            });
-            })();
-            //]]>
-          </script>
-        </body>
-      </html>
-    </foreignObject>
-  </svg>
+      const _0xopt2 = document.createElement('option');
+      _0xopt2.value = _0x82b4[19];
+      _0xopt2.text = 'third.html';
+      _0x3e4a.appendChild(_0xopt2);
+
+      _0x3e4a[_0x82b4[8]](_0x82b4[1], async(_0x5f12)=>{
+        const _0x9b8c = _0x5f12[_0x82b4[17]][_0x82b4[9]];
+        if(!_0x9b8c) return;
+        const _0x4d3e = window[_0x82b4[10]](_0x82b4[2], _0x82b4[3]);
+        try {
+          const fetchUrl = _0x9b8c + _0x82b4[4] + new Date().getTime();
+          const _0x7a6b = await fetch(fetchUrl, { cache: "no-store" });
+          if(!_0x7a6b[_0x82b4[11]]) throw new Error(_0x7a6b[_0x82b4[12]]);
+          let _0x2e1a = await _0x7a6b[_0x82b4[13]]();
+
+          _0x4d3e[_0x82b4[14]][_0x82b4[15]]();
+          _0x4d3e[_0x82b4[14]][_0x82b4[15]](_0x2e1a);
+          _0x4d3e[_0x82b4[14]][_0x82b4[16]]();
+        } catch(_0x3f5d) {
+          _0x4d3e[_0x82b4[14]][_0x82b4[15]]();
+          _0x4d3e[_0x82b4[14]][_0x82b4[15]](_0x82b4[5] + _0x9b8c + _0x82b4[6]);
+          _0x4d3e[_0x82b4[14]][_0x82b4[16]]();
+        }
+        _0x5f12[_0x82b4[17]][_0x82b4[9]] = "";
+      });
+      })();
+      //]]>
+    </script>
+    </body>
+    </html>
+  </foreignObject>
+</svg>
